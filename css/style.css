@@ -1,15 +1,46 @@
+/*CSS File*/
+/*Source: W3Schools*/
+/*Source: Youtube-Dracup_Tutorial*/
 body {
     background-color: hsl(0, 0%, 35%);
-    font-family: fantasy;
+   
+    margin: auto;
+    font-family: arial;
 }
-
+.nav_bar {
+    margin: auto;
+    border-bottom: 1px solid #000000;
+    padding: 0px 20px 0px 20px;
+    height: 64px;
+    margin-top: 25px
+}
+.nav_bar ul {
+    padding: 0;
+    list-style: none;
+}
+.nav_bar ul li {
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 14px;
+}
+.nav_bar ul li a {
+    text-decoration: none;
+    background: #6db1e4;
+    color: #000000;
+    border: 1px solid #000000;
+    border-bottom: none;
+    padding: 22px 20px 22px 20px;
+    width: 120px;
+    display: block;
+    text-align:center;
+}
 h1 {
     color: White;
     text-align: center;
 }
-
 h2 {
-    color:skyblue;
+    color:white;
     text-align: left;
 }
 #aboutme {
@@ -19,13 +50,17 @@ h2 {
     border: 1px solid white;
     margin: 75px;
     letter-spacing: 1px;
-    
 }
 .abtme {
-    background-color: skyblue;
+    background-color: none;
 }
 ol {
     color: white;
-    
+}
+.nav_bar ul li a:hover {
+    text-decoration: none;
+    color: #000000;
+    background-color: #96e0e9;
 }
 
+/*END D. Bakay*/
